@@ -1,4 +1,4 @@
-//Scroll > Quando rolar muda de cor
+//Scroll
 window.addEventListener('scroll', function(){
     var header = document.querySelector('header');
     header.classList.toggle('stick', window.scrollY > 0);
@@ -11,7 +11,7 @@ function toggleMenu(){
     menu.classList.toggle('active');
 }
 
-//Text que somente escreve 
+//Texto que escreve 
 var texto = "I'm Systems Analyst and Developer."
 var info
 
@@ -38,7 +38,7 @@ function escrever(str, done) {
     var typer = setInterval(function() {
         if (!char.length) {
             clearInterval(typer);
-            return setTimeout(done, 700); // Só para esperar um pouco
+            return setTimeout(done, 700); // time
         }
         var next = char.pop();
         div.innerHTML += next;
@@ -93,7 +93,7 @@ window.addEventListener('scroll', function(){
 })
 
 
-//Quando rolar para baixo 20px do topo do documento, mostre o botão
+//Quando rolar para baixo, mostre o botão
 var backToTop = document.getElementById("back-to-top");
 
 window.onscroll = function() {scrollFunction()};

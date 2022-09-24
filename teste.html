@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Analista de Sistemas, Cybersecurity, DevOps, Desenvolvedor de Infraestrutura, LGPD, evanta vulnerabilidades, Mapeamento de riscos e solução de segurança em ambientes e dispositivos informatizados.">
+    <meta name="author" content="Patrick Luiz Duque de Paula Nascimento">
+    <meta name="copyright" content="© 2021 Patrick Luiz Duque" />
+    <meta property="og:title" content="Portfólio | Patrick Luiz Duque - Desenvolvedor de Infraestrutura" />
+    <meta property="og:description" content="Desenvolvedor de Infraestrutura, Programador JavaScript, Cybersecurity, DevOps, Desenvolvedor de Infraestrutura, LGPD, evanta vulnerabilidades, Mapeamento de riscos e solução de segurança em ambientes e dispositivos informatizados." />
+    <link rel="icon" href="/assets/ico.png">
+    <title>Patrick Luiz Duque</title>
+
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    <!--  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#home" class="logo">Patrick Luiz Duque</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#sobre-mim" onclick="toggleMenu()">Sobre mim</a></li>
+            <li><a href="#tecnologias" onclick="toggleMenu()">Tecnologias</a></li>
+            <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+            <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+        </ul>
+    </header>
+
+
+    <section class="banner" id="home">
+        <div class="textBx" style="animation: slide-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+            <h2>Hello, I'm<br><span>Patrick Luiz Duque.</span></h2>
+            <h3 id="info"></h3>
+            <h3 id="write"></h3>
+            <a href="#sobre-mim" class="btn">Sobre mim</a>
+        </div>
+    </section>
+
+    <section class="sobre-mim" id="sobre-mim">
+        <div class="heading">
+            <h2 data-anime="top">Sobre mim</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3 data-anime="top"><strong style="color: #00BFFF;">I'm Systems Analyst and Developer.</strong></h3>
+                <p data-anime="top">Atualmente sou 3º Sargento do Exercito Brasileiro, tendo como especialidade Segurança e Infraestrutura. Procuro estar sempre acompanhando as novidades para que a eficiencia e a segurança caminhe de mãos dadas.</p><br>
+                <p data-anime="top">Meus pontos fortes ressaltam em <strong style="color: #00BFFF;">Linux, Hardware, Network, Cloud, e Gerenciadores de Arquivos </strong>, e principalmente venho focando a cada dia mais em <strong style="color: #00BFFF;">Cybersecurity.</strong></p><br>
+                <p data-anime="top">Estou em constante aprendizado, participando de eventos e sempre programando e desenvolvendo algo.</p><br>
+               <p data-anime="top">Sou formado em Análise e Desenvolvimento de Sistemas, Pós Graduado em Psicopedagogia, MBA em Segurança da Informação e MBA em Gestão de Processos, onde tive uma preparação academica voltada as possibilidades e desafios que o ambiente laboral necessita.</p>
+                <a data-anime="top" href="https://drive.google.com/file/d/1ridUFYiyoRDJApXHXZXlR37dmOQBUE4E/view?usp=sharing" target="_blank" class="btn curriculo" style="text-align: center;">confira o meu currículo <i class="fas fa-file-pdf fa-lg" style="padding-left: 8px;"></i></a><br><br>
+            </div>
+            <div class="w50">
+                <img data-anime="left" src="https://raw.githubusercontent.com/patrickluizdev/patrickluizdev/79064bac21ee2fc2f35bd75b3d1a5f5f8b015763/.github/workflows/img/ilus-code.svg" width="350" class="img img-th" alt="img-{]">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Tecnologias-->
+    <section class="tecnologias" id="tecnologias">
+        <div class="heading white">
+            <h2 data-anime="top">Tecnologias</h2>
+            <p data-anime="top" style= "letter-spacing: 0.3em; font-size: 25px;">Confira as Tecnologias que mais Utilizo!</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 0; height: 1px; background: #000;opacity: 0.1;">
+            </div>
+        </div>
+
+        <div class="content">         
+
+            <div data-anime="top" class="tecnologiasBx">
+                <i class="iconify "  data-icon="logos:linux-tux" style="font-size:50px; color:#5ed3f3;"> </i>
+                <h2>Linux</h2>
+                <p>São Sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux.</p>
+            </div>
+
+            <div data-anime="top1" class="tecnologiasBx">
+                <i   class="iconify" data-icon="logos:microsoft-windows" style="font-size:50px; color:#5ed3f3;"> </i>
+                <h2>Windows Server</h2>
+                <p>Plataforma para compilar uma infraestrutura de aplicativos, redes e serviços Web conectados.</p>
+            </div>
+            
+            <div data-anime="top2" class="tecnologiasBx">
+                <i  class="iconify" data-icon="codicon:terminal-bash"  style="font-size:50px; color:#5ed3f3;"> </i>
+                <h2>Bash</h2>
+                <p>GNU Bash ou simplesmente Bash é um interpretador de comandos, Acrônimo para "Bourne-Again SHell".</p>
+            </div>
+
+            <div data-anime="top3" class="tecnologiasBx">
+                <i class="fab fa-js fa-lg" style="font-size:50px; color:#efd81d;"> </i>
+                <h2>JavaScript</h2>
+                <p>Uma linguagem de alto nível com tipagem dinâmica fraca e multiparadigma
+                </p>
+            </div>
+
+            <div data-anime="top4" class="tecnologiasBx">
+                <i  class="iconify" data-icon="vscode-icons:file-type-python" style="font-size:50px; color:#efd81d;"> </i>
+                <h2>Python</h2>
+                <p>Linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
+            </div>
+
+            <div data-anime="top5" class="tecnologiasBx">
+                <i  class="iconify" data-icon="logos:aws" style="font-size:50px; color:#efd81d;"> </i>
+                <h2>AWS</h2>
+                <p>Plataforma de serviços e computação em nuvem oferecida pela Amazon.</p>
+            </div>
+
+            <div data-anime="top6" class="tecnologiasBx">
+                <i  class="iconify" data-icon="logos:microsoft-azure" style="font-size:50px; color:#efd81d;"> </i>
+                <h2>Azure</h2>
+                <p>Plataforma destinada à execução de aplicativos e serviços de computação em nuvem da Microsoft.</p>
+            </div>
+
+
+
+           
+
+
+        </div>
+        
+
+        <div class="heading white">
+            <p data-anime="top" style= " font-size: 25px; padding-top: 100px;">Outras Tecnologias que possuo!</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 1px dotted #000;opacity: 0.2;">
+            </div>
+        </div>
+        <div class="content">
+
+            <div data-anime="top1" class="tecnologiasBx">
+                <i  class="iconify" data-icon="logos:java" style="font-size:50px; color:#efd81d;"> </i>
+                <h2>Java</h2>
+                <p>Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si..</p>
+            </div>
+
+            <div data-anime="top2" class="tecnologiasBx">
+                <i class="fab fa-html5 fa-lg" style="font-size:50px; color:#dd4b25;"> </i>
+                <h2>HTML5</h2>
+                <p>HTML é uma linguagem de marcação utilizada na construção de páginas web</p>
+            </div>
+
+            <div data-anime="top3" class="tecnologiasBx">
+                <i class="fab fa-css3 fa-lg" style="font-size:50px; color:#318CE7;"> </i>
+                <h2>CSS3</h2>
+                <p>O CSS é um mecanismo para adicionar estilo a um documento web</p>
+            </div>
+
+
+            <div data-anime="top4" class="tecnologiasBx">
+                <span class="iconify" data-icon="logos:typescript-icon" style="font-size:50px;"></span>
+                <h2>TypeScript</h2>
+                <p>É um superconjunto sintático escrito de JavaScript e adciona tipagem estática opcional a linguagem.</p>
+            </div>
+           
+    
+            <div data-anime="top5" class="tecnologiasBx">
+                <span class="iconify" data-icon="vscode-icons:file-type-styled" style="font-size:50px; color:#318CE7;"></span></span>
+                <h2>Styled Components</h2>
+                <p>Uma biblioteca que utiliza o conceito de CSS-in-JS, permite escrever códigos CSS dentro do Javascript.</p>
+            </div>
+
+            <div data-anime="top6" class="tecnologiasBx">
+                <i class="fab fa-bootstrap fa-lg" style="font-size:50px; color:#6b409e;"> </i>
+                <h2>Bootstrap</h2>
+                <p>Um framework para desenvolvimento de componentes de interface e front-end</p>
+            </div>
+
+            <div data-anime="top7" class="tecnologiasBx">
+                <i class="fab fa-sass" style="font-size:50px; color:#c76494;"> </i>
+                <h2>Sass</h2>
+                <p>Sass é uma linguagem de folhas de estilo</p>
+            </div>
+            
+
+            <div data-anime="top8" class="tecnologiasBx">
+                <i class="fab fa-git-alt" style="font-size:50px; color:#e84e31;"> </i>
+                <h2>Git</h2>
+                <p>É um sistema de controle de versão distribuído de código aberto, desde projetos pequenos a muito grandes com velocidade e eficiência</p>
+            </div>
+
+        </div>
+
+        
+    </section>
+
+    <section class="projetos" id="projetos">
+        <div class="heading">
+            <h2 data-anime="top">Projetos</h2>
+            <p data-anime="top" style= "letter-spacing: 0.3em; font-size: 25px;">Confira os meus Projetos!</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 0; height: 1px; background: #000;opacity: 0.1;">
+            </div>
+        </div>
+        <div class="content">
+
+
+        </div>
+
+        <div class="heading repositorio">
+            <a data-anime="top" href="https://github.com/patrickluizdev" target="_blank">Repositórios no GitHub</a>
+        </div>
+        
+    </section>
+
+
+    <section class="contato" id="contato">
+        <div class="heading">
+            <h2 data-anime="top">Contato</h2>
+            <p data-anime="top" style= "letter-spacing: 0.2em; font-size: 25px;">Onde me encontrar:</p>
+            <div class="redes-sociais">
+                <ul data-anime="buttom" class="icons">
+                    <li ><a href="https://www.instagram.com/patricklduque/" class="fab fa-instagram fa-2x" target="_blank"></a></li>
+                    <li><a  href="https://www.linkedin.com/in/patricklduque/" class="fab fa-linkedin fa-2x" target="_blank"></a></li>
+                    <li><a  href="https://github.com/patrickluizdev" target="_blank" class="fab fa-github fa-2x"></a></li>
+                    <li><a  href="mailto:contato@patrickluizdev.link" class="far fa-envelope fa-2x"></a></li>
+                </ul>
+                <p data-anime="bottom" style="margin-top: 50px;">Espero que tenhamos oportunidades de trabalharmos juntos no futuro! <br> Ficou alguma dúvida, precisa de ajuda ou tem alguma curiosidade <br>Entre em contato!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Footer -->
+    <a onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fas fa-chevron-up"></i></a>
+
+    <!--Footer-->
+    <div class="footer">
+        <p>Copyriht &copy; <span id="hora"></span> Patrick Luiz Duque | Todos os direitos reservados.</p>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+<script src="js/script1.js" type="text/javascript"></script>
+<!--
+    result = info 
+    log = write
+-->
+</html>

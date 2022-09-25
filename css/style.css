@@ -6,7 +6,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    cursor: url(/assets/cursor.png), default;
+    
 }
+    a, p, img:hover {
+        cursor: url(/assets/lightsaberred.cur), default;
+    }
+    img:active {
+        cursor: url(/assets/lightsaberred.cur), default;
+    }
 /*********************** HEADER *****************/
 
 header.stick{
@@ -193,16 +201,6 @@ section{
     margin-bottom: 10px;
 }
 
-/*
-.w50{
-    min-width: 50%;
-} */
-
-/*
-img{
-    max-width: 100%;
-}*/
-
 .w50 .img-th{
     border-radius: 10px;
     margin: 20px;
@@ -293,21 +291,6 @@ img{
     color: #00BFFF;
 }
 
-
-/***************** FOOTER ***************/
-/*
-.redes-sociais.heading{
-    padding: 40px 20px; 
-    background: #B0C4DE; /*F0FFFF B0C4DE
-    color: black; 
-    max-width: 340px; 
-    margin: 20px; 
-    text-align: center;
-    transform: 0.5s;
-    border-radius: 15px;
-}
-*/
-
 /****************** Contato ***************/
 .contato{
     background: #f7f5fa; /* MUDAR A COR*/
@@ -359,42 +342,7 @@ img{
 
 
 
-/************* TESTE PROJETOS ***********
-
-.content .projetosBx .content{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    backdrop-filter: blur(15px);
-}
-*/
-/** Apartir daqui começa*/
-
-#back-to-top {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: royalblue;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
-#back-to-top:hover {
-    color: #fff;
-    background-color: #00BFFF;
-}  
+/*************  PROJETOS ***********
 
 /*ANIMAÇÃO*/
 [data-anime]{
@@ -472,7 +420,6 @@ img{
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
-
 
 
 /*Responsividade*/
@@ -697,64 +644,6 @@ img{
     }
 }
 
-/*
-@media (max-width:320px){
-    header,
-    header.stick
-    {
-        padding: 20px 50px;
-        z-index: 1000;
-    }
-    .menu
-    {
-        position: fixed;
-        top: 75px;
-        left: -100%;
-        display: block;
-        padding: 100px 50px;
-        text-align: center;
-        width: 100%;
-        height: 100vh;
-        background: #000;
-        transition: 0.5s;
-        z-index: 999;
-        border-top: 1px solid rgba(0, 0, 0, 0.2);
-    }
-    .menu.active
-    {
-        left: 0;
-    }
-    
-    header ul li a 
-    {
-        color: #111;
-        font-size: 24px;
-        margin: 10px;
-    }
-    .toggle
-    {
-        width: 40px;
-        height: 40px;
-        background: url(../image/menu.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 30px;
-        cursor: pointer;
-    }
-    .toggle.active
-    {
-        background: url(../image/close.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 25px;
-        cursor: pointer;
-    }
-    header.stick .toggle
-    {
-        filter: invert(1);
-    }
-}
-*/
 
 @media(max-width:320px){
     header,
@@ -921,11 +810,6 @@ img{
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-
-
-
-
-
 
   /***********************************/
 .overlay {

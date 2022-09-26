@@ -6,15 +6,22 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    cursor: url(/assets/cursor.png), default;
+    cursor: url(/assets/cursor1.cur), default;
+  
+    /* cursor: url(/assets/cursor.png), default; */
     
 }
-    a, p, img:hover {
-        cursor: url(/assets/lightsaberred.cur), default;
+a:active {
+    cursor: url(/assets/cursor3.cur), default;
+}
+span:active {
+    cursor: url(/assets/cursor3.cur), default;
+}
+
+    a, p, div, h1, h2, h3, img:hover {
+        cursor: url(/assets/cursor2.cur), default;
     }
-    img:active {
-        cursor: url(/assets/lightsaberred.cur), default;
-    }
+
 /*********************** HEADER *****************/
 
 header.stick{

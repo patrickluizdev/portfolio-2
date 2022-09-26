@@ -154,6 +154,7 @@ section{
 #write{
     font-family:'Courier New', Courier;
     color: #00BFFF;
+    font-weight: 800;
 }
 #write:after{
  content: '|';

@@ -99,7 +99,7 @@ section{
 {
     position: relative;
     min-height: 100vh;
-    background: url(/assets/teste.png);
+    background: url(/assets/teste.jpg);
     background-color: black;
     opacity: 1;
     background-size: cover;
@@ -107,6 +107,8 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 .banner h2{
